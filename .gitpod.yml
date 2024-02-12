@@ -3,8 +3,15 @@
 # and commit this file to your remote git repository to share the goodness with others.
 
 # Learn more from ready-to-use templates: https://www.gitpod.io/docs/introduction/getting-started/quickstart
-
+image:
+  file: .gitpod.Dockerfile
+  
 tasks:
-  - init: make
-
+  - init: echo "Theia IDE is ready to use!"
+    # command: echo "Theia IDE is ready to use!"
+    # openMode: split-right
+    # openIn: editor
+    # type: shell
+    # label: "Theia IDE is ready to use!"
+    # visibility: public
 
